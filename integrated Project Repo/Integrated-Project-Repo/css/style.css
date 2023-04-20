@@ -1,0 +1,662 @@
+body {
+    font-family: 'Prata', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    background: #ffffff;
+}
+
+header h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #434848;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #000000;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-right: 20px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+h4 {
+    font-size: 16px
+}
+
+.largePanelImage {
+    display: flex;
+}
+
+.largePanelImage img {
+    width: auto;
+    height: auto;
+    min-width: 710px;
+    min-height: 399.38px;
+    max-width: 710px;
+    max-height: 399.38px;
+}
+
+.panelContents {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 20px;
+}
+
+.panelContents h1 {
+    font-size: 43px;
+    margin-right: auto;
+}
+
+.panelContents hr {
+    margin: 40px 525px 40px 0px;
+    border-color: red;
+    height: 2px;
+    background-color: red;
+}
+
+.largePanelImage .panelContents p {
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 50px;
+    margin-right: 180px;
+    letter-spacing: 0%;
+}
+
+.panelContents .dateTime {
+    display: flex;
+    align-content: flex-end;
+}
+
+.panelContents .dateTime p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.largePanelImage .largeCountryImage {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    z-index: 50;
+    margin-bottom: 0px;
+    min-width: auto;
+    min-height: auto;
+    max-width: 40px;
+    max-height: 40px;
+    margin-top: 349px;
+}
+
+.topLargePanel .container .largePanelImage .largeCountryImage img {
+    min-width: auto;
+    min-height: auto;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+
+.topLargePanel .container .largePanelImage .largeCountryImage h2 {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.mediumPanels .mediumPanel .mediumCountryImage {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+    bottom: 10px;
+    position: absolute;
+    z-index: 50;
+    margin-bottom: 0px;
+    min-width: auto;
+    min-height: auto;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.mediumPanels .mediumPanel .mediumCountryImage h2 {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.mediumPanels .mediumPanel .mediumPanel1 {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: auto;
+    width: auto;
+    min-height: 262.2px;
+    max-height: 262.2px;
+    max-width: 466.67px;
+    position: absolute;
+}
+
+.mediumPanels{
+    max-height: 262.2px;
+    max-width: 466.66px;
+}
+
+.mediumPanels .mediumPanel .mediumPanel2 {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: auto;
+    width: auto;
+    min-height: 262.2px;
+    max-height: 262.2px;
+    max-width: 466.66px;
+    position: absolute;
+}
+
+.mediumPanels .mediumPanel .mediumPanel3 {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: auto;
+    width: auto;
+    min-height: 262.2px;
+    max-height: 262.2px;
+    max-width: 466.66px;
+    position: absolute;
+}
+
+.mediumPanels .mediumPanel .mediumPanelContents {
+    margin-top: 20px;
+    line-height: 35px;
+    font-weight: normal;
+}
+
+.mediumPanels .mediumPanel .mediumPanelContents hr {
+    margin: 10px 355px 10px 0px;
+    border-color: red;
+    height: 2px;
+    background-color: red;
+}
+
+.mediumPanels .mediumPanel .mediumPanelContents h2 {
+    line-height: 35px;
+}
+
+.lineBreak hr {
+    margin: 10px 0px 10px 0px;
+    border-color: rgb(185, 180, 180);
+    height: 2px;
+    background-color: red;
+}
+
+.middleMediumPanel .container {
+    min-height: 625px;
+    padding-top: 0px;
+    margin-bottom: 30px;
+}
+
+.containerRelative {
+    padding: 0px;
+}
+
+.opinionLineBreak hr {
+    margin: 10px 0px 10px 0px;
+    border-color: rgb(185, 180, 180);
+    height: 1px;
+}
+
+.mediumBigPanels .imageBackground {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 422px;
+    min-height: 420px;
+    position: relative;
+}
+
+.mediumBigPanels .imageBackground .mediumCountryImage {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+    position: absolute;
+    bottom: 10px;
+    z-index: 50;
+    margin-bottom: 0px;
+    min-width: auto;
+    min-height: auto;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.mediumBigPanels .imageBackground .mediumCountryImage h2 {
+    padding: 8px;
+    background-color: white;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.mediumBigPanels .container {
+    padding-top: 0px;
+}
+
+.mediumBigPanelsContents h2 {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.mediumBigPanelsContents hr {
+    margin: 30px 190px 30px 0px;
+    border-color: red;
+    height: 2px;
+    background-color: red;
+}
+
+.mediumBigPanelsContents p {
+    line-height: 22px;
+}
+
+.mediumBigPanels .imageBackground2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 422px;
+    min-height: 420px;
+    position: relative;
+}
+
+.mediumBigPanels .imageBackground2 .mediumCountryImage h2 {
+    padding: 8px;
+    background-color: white;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.mediumBigPanels .imageBackground2 .mediumCountryImage {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 474px;
+    z-index: 50;
+    margin-bottom: 0px;
+    min-width: auto;
+    min-height: auto;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.mediumBigPanelsContents2 hr {
+    margin: 30px 190px 30px 0px;
+    border-color: red;
+    height: 2px;
+    background-color: red;
+}
+
+.mediumBigPanelsContents2 h2 {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.mediumBigPanels .imageBackground2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 422px;
+    min-height: 420px;
+    position: relative;
+}
+
+.panel {
+    display: flex;
+}
+
+.panel img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.panel h2 {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.opinionPanels img {
+    margin-top: 20px;
+}
+
+.opinionPanels hr {
+    margin-bottom: 10px;
+}
+
+.opinionPanels p {
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+
+.opinionLineBreak h2 {
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+}
+
+.opinionPanels p {
+    font-size: 10px;
+}
+
+.flex {
+    display: flex;
+    gap: 1em;
+}
+
+.bottomMediumPanel  .bottomMediumPanels .mediumPanel .mediumCountryImage {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+    bottom: 10px;
+    position: absolute;
+    z-index: 50;
+    margin-bottom: 0px;
+    min-width: auto;
+    min-height: auto;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.bottomMediumPanel  .bottomMediumPanels .mediumPanel .mediumCountryImage h2 {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.bottomMediumPanel  .bottomMediumPanels .mediumPanel .mediumPanel1 {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: auto;
+    width: auto;
+    min-height: 262.2px;
+    max-height: 262.2px;
+    max-width: 466.67px;
+    position: absolute;
+}
+
+.bottomMediumPanel  .bottomMediumPanels{
+    max-height: 262.2px;
+    max-width: 466.66px;
+}
+
+.bottomMediumPanel  .bottomMediumPanels .mediumPanel .mediumPanel2 {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: auto;
+    width: auto;
+    min-height: 262.2px;
+    max-height: 262.2px;
+    max-width: 466.66px;
+    position: absolute;
+}
+
+.bottomMediumPanel  .bottomMediumPanels .mediumPanel .mediumPanel3 {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: auto;
+    width: auto;
+    min-height: 262.2px;
+    max-height: 262.2px;
+    max-width: 466.66px;
+    position: absolute;
+}
+
+.bottomMediumPanel  .bottomMediumPanels .mediumPanel .mediumPanelContents {
+    margin-top: 20px;
+    line-height: 35px;
+    font-weight: normal;
+}
+
+.bottomMediumPanel  .bottomMediumPanels .mediumPanel .mediumPanelContents hr {
+    margin: 10px 355px 10px 0px;
+    border-color: red;
+    height: 2px;
+    background-color: red;
+}
+
+.bottomMediumPanel  .bottomMediumPanels .mediumPanel .mediumPanelContents h2 {
+    line-height: 35px;
+}
+
+.bottomMediumPanel .container {
+    min-height: 625px;
+    padding-top: 0px;
+    margin-bottom: 30px;
+}
+
+
+footer {
+    background: #2E3333;
+    color: #fff;
+    margin-top: 30px;
+    padding-top: 40px;
+}
+
+footer h3 {
+    font-size: 18px;
+}
+
+.footerBlock {
+    background-color: #434848;
+    padding: 20px;
+    flex: 1;
+    border-radius: 4px;
+}
+
+.footerBlock a:hover {
+    text-decoration: none;
+    color: #00CCBC;
+}
+
+.footerBlock i {
+    margin-left: 30px;
+}
+
+.mediaIcons {
+    font-size: 20px;
+    margin: 20px 10px;
+}
+
+.mediaIcons i {
+    margin-right: 20px;
+}
+
+.footerBlock img {
+    width: 135px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.largeImage img{
+    justify-content: center;
+    display: flex;
+}
+
+.article .largeCountryImage img{
+    min-width: auto;
+    min-height: auto;
+    max-width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+}
+
+
+.article .largeCountry{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article .largeCountryImage {
+    background-color: white;
+    min-width: auto;
+    min-height: auto;
+    max-width: 40px;
+    max-height: 40px;
+    display: flex;
+}
+
+.article .largeCountryImage h2 {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.article .dateTime{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 272px;
+    margin-top: 5px;
+}
+
+.article .dateTime p {
+    font-size: 14px;
+    margin-right: 85px;
+}
+
+.articleHeader h2{
+    line-height: 35px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    margin-right: 320px;
+    margin-top: 40px;
+}
+
+.articleHeader{
+    margin-bottom: 40px;
+
+}
+
+.articleContents p{
+    margin: 60px 60px 0px 60px;
+
+}
+
+.backButton a{
+    color: red;
+}
+
+.backButton a:hover{
+    text-decoration: underline;
+
+}
+
+footer{
+    background-color: #252423;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer li {
+    display: flex;
+    margin-left: 40px;
+    color: #706F6E;
+    font-weight: bolder;
+}
+
+
+footer ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: #706F6E;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+footer li a{
+    font-weight: bolder;
+}
+footer ul li i{
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+footer a i{
+    margin-left: 10px;
+}
+footer a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+    color: white;
+}
+
+footer a:hover i{
+    color: red;
+}
+
+footer a:hover img{
+    color: red;
+}
+footer hr{
+    height: 0.5px;
+    width: 75%;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 255px;
+    border: 1px solid #706F6E;
+}
+
+footer .footerBottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerBottom p{
+    margin-left: 255px;
+    color: #777A7B;
+}
+
+.footerBottom a{
+    margin-right: 195px;
+    color: #706F6E;
+    font-weight: bold;
+}
+
+.footerBottom a:hover{
+    text-decoration: none;
+}
+
